@@ -99,20 +99,4 @@ Future Improvements
 This project successfully fine-tunes a DistilBERT uncased model for transaction category classification using transaction descriptions as input. The model is trained on a labeled dataset and deployed via FastAPI for real-time predictions.
 
 By leveraging Hugging Face Transformers, the project benefits from state-of-the-art NLP capabilities while ensuring efficient inference through DistilBERT's lightweight architecture. The API integration allows seamless interaction, making it suitable for financial applications, expense tracking, and automated categorization systems.
-## Folder Structure
 
-The project is organized into the following directories:
-
-app/                 # Application-related files (if any)  
-data/                # Dataset storage  
-  ├── transaction_dataset/  
-  │   ├── label_to_category.json  # Mapping of labels to categories  
-  │   ├── transactions.csv        # Transaction dataset  
-models/              # Trained model storage  
-script/              # Training and preprocessing scripts  
-  ├── preprocess.py  # Data preprocessing  
-  ├── train_model.py # Model training  
-.env                 # Environment variables (if applicable)  
-.gitignore           # Git ignore file  
-config.json          # Configuration settings  
-requirements.txt     # Required dependencies  
